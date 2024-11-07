@@ -1,0 +1,107 @@
+table{
+    color: white;
+    text-align: center;
+    border-collapse: collapse;
+    border-radius: 20px;
+    background: rgb(0,0,0);
+background: -moz-linear-gradient(153deg, rgba(0,0,0,1) 0%, rgba(37,44,106,0.8463760504201681) 100%);
+background: -webkit-linear-gradient(153deg, rgba(0,0,0,1) 0%, rgba(37,44,106,0.8463760504201681) 100%);
+background: linear-gradient(153deg, rgba(0,0,0,1) 0%, rgba(37,44,106,0.8463760504201681) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#252c6a",GradientType=1);
+   
+}
+
+
+/* 
+ 
+*****
+****
+ ***
+  **
+   *
+
+
+
+7)
+*
+1
+123
+1234
+12345
+1234
+123
+12
+1
+*
+
+
+
+
+
+
+8)   
+    1
+   1221
+  123321
+ 12344321
+1234554321
+ 12344321
+  123321
+   1221
+    1
+
+9) 
+123456789
+1234567
+12345
+123
+1
+
+
+10) 
+A
+AB
+ABC
+ABCD
+ABCDE
+
+
+
+11)
+A
+B B
+A A A
+B B B B
+A A A A A
+
+
+
+
+12)
+C
+C O
+C O D
+C O D E
+C O D E R
+
+13)
+A
+B
+C
+D
+E
+ F
+G
+H
+I
+J
+K
+
+*/
+
+/*
+
+Display Numbers from 1 to 5
+
+Display Sum of n Natural Numbers
+ */

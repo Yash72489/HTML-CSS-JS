@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+    <script>
+        let data = [
+            {
+                "id": 1,
+                "name": "John Doe",
+                "age": 20,
+                "gender": "Male",
+                "address": [{
+                    "street": "123 Main Street",
+                    "city": "Cityville",
+                    "zip": "12345",
+                    "country": "USA"
+                }],
+                "email": "john.doe@example.com",
+                "phone": "555-123-4567",
+                "standard": [
+                    "12th"
+                ],
+                
+                marksheet:{
+                    Marathi:72,
+                   English:82,
+                   Maths:98,
+                   Science:47,
+                    History:84,
+                   
+                   
+                }
+               
+            },
+       ]
+
+     let percentage = function () {
+        return (data[0].marksheet.Marathi+data[0].marksheet.English+data[0].marksheet.Maths+data[0].marksheet.Science+data[0].marksheet.History)/500 * 100
+        
+     }
+     let total = function () {
+        return (data[0].marksheet.Marathi+data[0].marksheet.English+data[0].marksheet.Maths+data[0].marksheet.Science+data[0].marksheet.History) 
+        
+     }
+    //  console.log(total());
+
+     
+
+
+
+        document.write(`<table border = "1"  style="color:black;border-collapse:collapse; 
+   width: 50%; margin:10px; border: 1px solid black; font-size:20px;
+   background-color: powderblue;"><tbody><tr><td> Id : ${data[0].id}</td></tr><tr><td>Name :${data[0].name}</td></tr><tr><td>Age: ${data[0].age}</td></tr><tr><td>Gender : ${data[0].gender}</td></tr><tr><td>Address: ${data[0].address[0].country},${data[0].address[0].city},${data[0].address[0].street},${data[0].address[0].zip}</td></tr><tr><td> Email Address : ${data[0].email}</td></tr><tr><td> Phone : ${data[0].phone}</td></tr><tr><td> Courses : ${data[0].courses}</td></tr><tr><td><img src=${data[0].image} > </td></tr>
+     <tr align="center" style="background-color: black ; color : white;"><td><br>UNIVERSITY OF Micheggan<br>MARKSHEET<br><br></td></tr><tr style=" background-color: white; "><td>&nbsp;&nbsp;&nbsp;Subject</td></tr>
+    <tr><td>&nbsp;&nbsp;Marathi:${data[0].marksheet.Marathi}</td></tr><tr><td>&nbsp;&nbsp;English:${data[0].marksheet.English}</td></tr><tr><td>&nbsp;&nbsp;Maths:${data[0].marksheet.Maths}</td></tr><tr><td>&nbsp;&nbsp;Science:${data[0].marksheet.Science}</td></tr><tr><td>&nbsp;&nbsp;History:${data[0].marksheet.History}</td></tr><br><tr align="right"><td>TOTAL:${total()}</td></tr><tr align="right";><td>&nbsp;&nbsp;PERCENTAGE : ${percentage()}%</td></tr></tbody>`)
+
+
+    </script>
+</head>
+
+<body>
+
+ <script src="problem.js"></script>
+    <script src="/index.js"></script>
+</body>
+
+</html>

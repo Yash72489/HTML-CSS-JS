@@ -1,0 +1,9 @@
+@mixin ab($bg: red, $width: 10px){
+    background-color: $bg;
+    width: $width
+}
+
+
+
+
+@include ab($bg: green, $width: 20px);

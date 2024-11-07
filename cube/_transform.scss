@@ -1,0 +1,20 @@
+.front{
+    transform: translateX(616px) translateY(180px) skewY(335deg);
+
+}
+.back{
+ transform:   translateX(816px) skewY(383deg) translateY(-25px);
+    
+}
+.bottom{
+    transform: translateX(617px) skewY(-157deg) translateY(-131px);
+}
+.left{
+    transform: translateX(817px) translateY(-335px) skewY(335deg);
+}
+.za{
+  transform:   rotate(51deg) translateY(-780px) skew(165deg) skewX(1deg) skewY(328deg) translateX(90px) scaleX(0.8) scaleY(1.6);
+}
+.zb{
+    transform: rotate(51deg) translateY(-1130px) skew(165deg) skewX(1deg) skewY(328deg) translateX(-137px) scaleX(0.8) scaleY(1.6);
+}

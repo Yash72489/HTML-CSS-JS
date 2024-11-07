@@ -1,0 +1,39 @@
+#unique{
+    color: rgb(255, 162, 0);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.red{
+ color: blue;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ font-size: 16px;
+ font-weight: bold;
+
+}
+
+.submit{
+    color: rgb(131, 103, 70);
+    
+}
+
+a:link {
+    color: rgb(81, 13, 190);
+  }
+  
+  /* visited link */
+  a:visited {
+    color: green;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: hotpink;
+  }
+  
+  /* selected link */
+  a:active {
+    color: blue;

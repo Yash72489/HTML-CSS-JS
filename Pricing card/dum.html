@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Card</title>
+    <link rel="stylesheet" href="pricing.css">
+    
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-rounded/css/uicons-bold-rounded.css'>
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/2.5.1/uicons-bold-straight/css/uicons-bold-straight.css'>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .pricing-container {
+            display: flex;
+            justify-content: space-around; /* Distribute space around the columns */
+            padding: 20px;
+            gap: 20px; /* Gap between the columns */
+        }
+
+        section {
+            flex: 1; /* Each section will take up equal width */
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            max-width: 300px; /* Control the width of each pricing card */
+        }
+
+        h3 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .center {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .uline {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+        }
+
+        .line {
+            border-top: 1px solid #ddd;
+            margin-top: 20px;
+        }
+
+        .button, .button2 {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .button2 {
+            background-color: #008CBA;
+        }
+
+        .button:hover, .button2:hover {
+            background-color: #45a049;
+        }
+
+        .feature {
+            color: #555;
+            cursor: pointer;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Pricing card</h3>
+    <h2>Pick Your Perfect Plan</h2>
+    <p class="center">Get started in Complete Confidence. Our 30-day money back guarantee, it's risk-free.</p>
+
+    <div class="pricing-container">
+        <!-- col1 -->
+        <section>
+            <div class="first">
+                <h4>Single</h4>
+                <br>
+                <span style="font-size: 14px;">A great solution for Beginners</span>
+                <br><br>
+                <del>₹399.00</del>
+                <button class="button"><b>Save 82%</b></button>
+                <br><br>
+                <span style="font-weight: lighter; font-size: 26px;">₹ <span style="font-size: 48px; font-weight:800; line-height: 56px;">69.00</span>/mo</span>
+                <br><br>
+                <span style="color: rgb(55, 71, 186);">+ 1 month Trial</span>
+                <br><br>
+                <button class="button2">Choose Plan</button>
+                <br><br>
+                <span style="color: rgba(114, 112, 112, 0.711);">₹ 179.00/mo when you renew</span>
+                <br><br>
+                <hr class="line"><br><br>
+                <ul class="list">
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <b>1</b> Website</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u>Managed Wordpress Hosting</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <b>50GB</b> SSD Storage</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; Hostinger Website Builder</li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Free Domain (₹ 749.00 Value)</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u>Free automatic website migration</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; 1 email account</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u><b>Unlimited</b> free SSL</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Free CDN</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>WooCommerce</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Dedicated IP address</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Priority support</u></li>
+                </ul>
+                <br><br>
+                <p class="feature">See all features <sub><i class="fi fi-bs-angle-small-down"></i></sub></p>
+            </div>
+        </section>
+
+        <!-- col2 -->
+        <section>
+            <div class="second">
+                <table cellspacing="0" cellpadding="0">
+                    <tr><td><span class="popular">MOST POPULAR</span></td></tr>
+                </table>
+                <h4 style="font-weight: bolder;">Premium</h4>
+                <br>
+                <span style="font-size: 14px;">Everything you need to create your website.</span>
+                <br><br>
+                <del>₹599.00</del>
+                <button class="button"><b>Save 75%</b></button>
+                <br><br>
+                <span style="font-weight: lighter; font-size: 30px;">₹ <span style="font-size: 48px; font-weight: bolder; line-height: 56px;">149.00</span>/mo</span>
+                <br><br>
+                <span style="color: rgb(55, 71, 186);">+ 2 months free</span>
+                <br><br>
+                <button class="button2">Choose Plan</button>
+                <br><br>
+                <span style="color: rgba(114, 112, 112, 0.711);">₹ 249.00/mo when you renew</span>
+                <br><br>
+                <hr class="line"><br><br>
+                <ul class="list">
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <b>100</b> Websites</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u>Managed Wordpress Hosting</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <b>100GB</b> SSD Storage</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; Hostinger Website Builder</li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Free Domain (₹ 749.00 Value)</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u>Free automatic website migration</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; Free email account</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u><b>Unlimited</b> free SSL</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Free CDN</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u><b>Weekly</b> backups</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u><b>Starter</b> WooCommerce</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Dedicated IP address</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Priority support</u></li>
+                </ul>
+                <br><br>
+                <p class="feature">See all features <sub><i class="fi fi-bs-angle-small-down"></i></sub></p>
+            </div>
+        </section>
+
+        <!-- col3 -->
+        <section>
+            <div class="third">
+                <h4 style="font-weight: bolder;">Business</h4>
+                <br>
+                <span style="font-size: 14px;">Level up with more Power and Enhanced features.</span>
+                <br><br>
+                <del>₹699.00</del>
+                <button class="button"><b>Save 65%</b></button>
+                <br><br>
+                <span style="font-weight: lighter;">₹ <span style="font-size: 48px; font-weight: bolder; line-height: 56px;">249.00</span>/mo</span>
+                <br><br>
+                <span style="color: rgb(55, 71, 186);">+ 2 months free</span>
+                <br><br>
+                <button class="button2">Choose Plan</button>
+                <br><br>
+                <span style="color: rgba(114, 112, 112, 0.711);">₹ 499.00/mo when you renew</span>
+                <br><br>
+                <hr class="line"><br><br>
+                <ul class="list">
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <b>100</b> Websites</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u>Managed Wordpress Hosting</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <b>200GB</b> SSD Storage</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; Hostinger Website Builder</li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Free Domain (₹ 749.00 Value)</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u>Free automatic website migration</u></li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; Free email account</li>
+                    <li class="uline"><i class="fi fi-br-check"></i> &nbsp; <u><b>Unlimited</b> free SSL</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u><b>Daily</b> Backups (₹ 749.00 Value)</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u><b>Weekly</b> CDN</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u><b>Basics</b> WooCommerce Optimization</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Dedicated IP address</u></li>
+                    <li class="uline"><i class="fi fi-rr-minus-small"></i> &nbsp; <u>Priority support</u></li>
+                </ul>
+                <br><br>
+                <p class="feature">See all features <sub><i class="fi fi-bs-angle-small-down"></i></sub></p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

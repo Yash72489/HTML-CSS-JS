@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../sass"
+		},
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Pricingcard.2"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "scss"
+	}
+}

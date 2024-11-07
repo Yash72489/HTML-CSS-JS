@@ -1,0 +1,117 @@
+.platform{
+    
+  padding: 10px 60px;
+  width: 105px;
+  height: 14px;
+  margin-top: 687px;
+  margin-left: 680px;
+  border-radius: 24px;
+  transform: skewX(-97deg);
+}
+.striker{
+  position: absolute;
+  top: 200px;
+  left: 754px;
+  animation-name: striker;
+  animation-duration: 0.5s;
+}
+@keyframes striker {
+ from{
+  position: absolute;
+  top: 200px;
+  left: 754px;
+ }
+ to{
+  position: absolute;
+  top: 195px;
+  left: 730px;
+ }
+}
+
+
+
+.ball{
+  
+    width: 80px;
+    position: absolute;
+    top: 400px;
+    left: 650px;
+    animation-name: example;
+    animation-delay: 0.5s;
+    animation-duration: 3s;   
+    
+}
+@keyframes example {
+  0%{
+    position: absolute;
+    top: 400px;
+    left: 650px;
+  }
+  25%{
+    position: absolute;
+    top: 350px;
+    left: 550px;
+    width: 71px;
+  }
+  50%{
+    position: absolute;
+    top: 550px;
+    left: 330px;
+  }
+  75%{
+    position: absolute;
+    top: 420px;
+    left: 251px;
+  }
+  100%{
+    position: absolute;
+    top: 380px;
+    left: 211px;
+  }
+
+
+}
+
+.gk{
+  
+  position:absolute;
+  top: 400px;
+  left: 650px;
+  animation-name: gk;
+  animation-duration: 3s;
+
+
+
+}
+@keyframes gk {
+  0%{
+    position: absolute;
+    top: 400px;
+    left: 650px;
+   
+  }
+  25%{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    
+  }
+  50%{
+    position: absolute;
+    top: 300px;
+    left: 580px;
+   
+  }
+  75%{
+    position: absolute;
+    top: 290px;
+    left: 560px;
+    
+  }
+  100%{
+    position: absolute;
+    top: 280px;
+    left: 550px;
+    
+  }
+}

@@ -1,0 +1,98 @@
+body{
+   
+    background-image: url("https://plus.unsplash.com/premium_photo-1668790459146-87918c7f8e1d?q=80&w=1999&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    
+}
+div{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    border-radius: 15px;
+    top: 300px;
+    left: 664px;
+
+    box-shadow: 5px 5px 15px 6px black;
+    
+    background: rgb(2,0,36);
+    background: -moz-linear-gradient(73deg, rgba(2,0,36,1) 0%, rgba(105,12,162,1) 100%);
+    background: -webkit-linear-gradient(73deg, rgba(2,0,36,1) 0%, rgba(105,12,162,1) 100%);
+    background: linear-gradient(73deg, rgba(2,0,36,1) 0%, rgba(105,12,162,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#020024",endColorstr="#690ca2",GradientType=1);
+    animation-name: card;
+    animation-duration: 1s;
+    div:hover{
+        @keyframes card {
+            from{
+                box-shadow: 5px 5px 15px 6px black;
+            }
+            to{
+                box-shadow: 5px 5px 30px 6px black;
+            }
+        }
+    }
+
+    animation-name: card1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; 
+    transform: scale(1);
+
+
+
+      &:hover{
+        @keyframes card1 {
+          
+            to{
+                transform: scale(1.1);
+            }
+        }
+    }
+    cursor: pointer;
+}
+
+.card{
+    padding: 20px;
+    margin-top: 10px;
+    position: absolute;
+    top: -13px;
+    line{
+        color: white;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+}
+.cardno{
+    font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 165px;
+  left: 19px;
+  color: rgba(245,245,220,.685);
+}
+
+.number{
+    font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
+    font-size: 23px;
+    position: absolute;
+    top: 192px;
+    left: 19px;
+    color: rgba(245,245,220,.685);
+}
+.name{
+    font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
+  font-size: 20px;
+  position: absolute;
+  top: 241px;
+  left: 19px;
+  color: rgba(245,245,220,.685);
+}
+.validupto{
+    font-family: "Trebuchet MS","Lucida Sans Unicode","Lucida Grande","Lucida Sans",Arial,sans-serif;
+    font-size: 16px;
+    position: absolute;
+    top: 237px;
+    left: 484px;
+    color: rgba(245, 245, 220, 0.82);
+}

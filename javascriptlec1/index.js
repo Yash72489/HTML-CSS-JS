@@ -1,0 +1,1 @@
+.btn{onclick=document.getElementById("demo").innerHTML="preint"}
